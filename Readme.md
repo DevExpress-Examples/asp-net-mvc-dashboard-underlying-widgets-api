@@ -22,3 +22,9 @@ The customized options are listed below:
 ## Documentation
 
 - [Access to Underlying Widgets in ASP.NET MVC](https://docs.devexpress.com/Dashboard/401089/web-dashboard/aspnet-mvc-dashboard-extension/access-to-underlying-widgets?p=netframework)
+
+## More Examples
+
+- [ASP.NET Web Forms Dashboard Control - How to access API of underlying widgets](https://github.com/DevExpress-Examples/how-to-access-api-of-underlying-widgets-in-the-aspnet-dashboard-control-t492396)
+- [ASP.NET Core Dashboard Control - How to access API of underlying widgets](https://github.com/DevExpress-Examples/dashboard-react-underlying-widgets-api)
+- [Dashboard Component for React - How to access API of underlying widgets](https://github.com/DevExpress-Examples/asp-net-core-dashboard-underlying-widgets-api)
