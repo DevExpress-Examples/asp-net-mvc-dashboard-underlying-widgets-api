@@ -4,7 +4,7 @@
 * [Index.cshtml](./CS/AspNetMvcDashboardApp/Views/Home/Index.cshtml) (VB: [Index.vbhtml](./VB/AspNetMvcDashboardApp/Views/Home/Index.vbhtml))
 * [WidgetsCustomization.js](./CS/AspNetMvcDashboardApp/Scripts/WidgetsCustomization.js) (VB: [WidgetsCustomization.js](./VB/AspNetMvcDashboardApp/Scripts/WidgetsCustomization.js))
 <!-- default file list end -->
-# How to access API of underlying widgets in the ASP.NET MVC Dashboard Control
+# ASP.NET MVC Dashboard Control - How to access API of underlying widgets
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/371736934/)**
 <!-- run online end -->
