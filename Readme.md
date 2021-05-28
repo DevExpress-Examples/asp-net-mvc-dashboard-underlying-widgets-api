@@ -5,6 +5,9 @@
 * [WidgetsCustomization.js](./CS/AspNetMvcDashboardApp/Scripts/WidgetsCustomization.js) (VB: [WidgetsCustomization.js](./VB/AspNetMvcDashboardApp/Scripts/WidgetsCustomization.js))
 <!-- default file list end -->
 # How to access API of underlying widgets in the ASP.NET MVC Dashboard Control
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/371736934/)**
+<!-- run online end -->
 
 The following example shows how to customize options of underlying widgets in ASP.NET MVC. For this, you need to handle the [onItemWidgetOptionsPrepared](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.ViewerApiExtensionOptions?p=netframework#js_devexpress_dashboard_viewerapiextensionoptions_onitemwidgetoptionsprepared) event.
 
