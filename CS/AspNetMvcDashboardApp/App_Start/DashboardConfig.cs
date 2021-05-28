@@ -1,10 +1,6 @@
 using System.Web.Routing;
 using DevExpress.DashboardWeb;
 using DevExpress.DashboardWeb.Mvc;
-using DevExpress.DataAccess.Sql;
-using System.Web.Hosting;
-using DevExpress.DataAccess.Excel;
-using DevExpress.DashboardCommon;
 
 namespace AspNetMvcDashboardApp {
     public static class DashboardConfig {
