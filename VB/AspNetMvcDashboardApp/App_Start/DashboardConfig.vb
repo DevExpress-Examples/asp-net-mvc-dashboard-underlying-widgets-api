@@ -3,7 +3,7 @@ Imports DevExpress.DashboardWeb.Mvc
 
 Public NotInheritable Class DashboardConfig
     Public Shared Sub RegisterService(ByVal routes As RouteCollection)
-        routes.MapDashboardRoute("dashboardControl")
+        routes.MapDashboardRoute("dashboardControl", "DefaultDashboard")
 
         Dim dashboardFileStorage As New DashboardFileStorage("~/App_Data/Dashboards")
         DashboardConfigurator.Default.SetDashboardStorage(dashboardFileStorage)
