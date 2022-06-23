@@ -1,6 +1,5 @@
 <script src="~/Scripts/WidgetsCustomization.js"></script>
-@Html.DevExpress().Dashboard(
-Sub(settings)
+@Html.DevExpress().Dashboard(Sub(settings)
     settings.Name = "Dashboard"
     settings.ControllerName = "DefaultDashboard"
     settings.Width = Unit.Percentage(100)
