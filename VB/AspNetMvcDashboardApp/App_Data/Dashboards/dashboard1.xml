@@ -68,12 +68,33 @@
         <Value DefaultId="DataItem0" />
       </Values>
     </Pie>
+    <Gauge ComponentName="gaugeDashboardItem1" Name="Gauges 1" DataSource="DataSource1" DataMember="SalesPerson">
+      <DataItems>
+        <Measure DataMember="Extended Price" DefaultId="DataItem0" />
+        <Measure DataMember="Quantity" DefaultId="DataItem1" />
+      </DataItems>
+      <GaugeElement>
+        <ActualValue DefaultId="DataItem0" />
+        <AbsoluteVariationNumericFormat />
+        <PercentVariationNumericFormat />
+        <PercentOfTargetNumericFormat />
+      </GaugeElement>
+      <GaugeElement>
+        <ActualValue DefaultId="DataItem1" />
+        <AbsoluteVariationNumericFormat />
+        <PercentVariationNumericFormat />
+        <PercentOfTargetNumericFormat />
+      </GaugeElement>
+    </Gauge>
   </Items>
   <LayoutTree>
     <LayoutGroup>
       <LayoutItem DashboardItem="gridDashboardItem1" Weight="63.807415605976757" />
       <LayoutGroup Orientation="Vertical" Weight="136.19258439402324">
-        <LayoutItem DashboardItem="chartDashboardItem1" Weight="136.19258439402324" />
+        <LayoutGroup Weight="136.19258439402324">
+          <LayoutItem DashboardItem="gaugeDashboardItem1" Weight="136.19258439402324" />
+          <LayoutItem DashboardItem="chartDashboardItem1" Weight="136.19258439402324" />
+        </LayoutGroup>
         <LayoutItem DashboardItem="pieDashboardItem1" Weight="136.19258439402324" />
       </LayoutGroup>
     </LayoutGroup>
