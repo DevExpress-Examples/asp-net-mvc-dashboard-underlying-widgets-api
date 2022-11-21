@@ -4,6 +4,6 @@
     settings.ControllerName = "DefaultDashboard"
     settings.Width = Unit.Percentage(100)
     settings.Height = Unit.Percentage(100)
-    settings.WorkingMode = DevExpress.DashboardWeb.WorkingMode.Designer
+    settings.WorkingMode = DevExpress.DashboardWeb.WorkingMode.Viewer
     settings.ClientSideEvents.BeforeRender = "onBeforeRender"
 End Sub).GetHtml()
